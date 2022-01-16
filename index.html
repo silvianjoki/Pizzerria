@@ -27,6 +27,7 @@
                     <li class="nav item"><a href="#about" class="nav link">About</a></li>
                     <li class="nav item"><a href="#menu" class="nav link">Menu</a></li>
                     <li class="nav item"><a href="#order" class="nav link"> Order</a></li>
+                    <li class="nav item"><a href="#contacts" class="nav link"> Contacts</a></li>
                 </ul>
             </div>
         </div>
@@ -130,7 +131,66 @@
                         <label class="form-check-label" for="ham">Ham</label>
                     </div>
                     <br><br>
+                    <button type="submit" class="btn btn-dark proceed">Proceed</button>
                     </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-7">
+        <div id= "information">
+            <p>Your order will be delivered within one hour from order time.</p>
+            <p>Kindly input correct delivery details to avoid errors.</p>
+        </div>
+        <div class="selection">
+            <h2>Your order is:</h2>
+            <div id="your-order">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Topping</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ordermade">
+                        <tr>
+                            <td id="pizzaname"></td>
+                            <td id="pizzasize"></td>
+                            <td id="pizzacrust"></td>
+                            <td id="pizzatopping"></td>
+                            <td id="total"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p id="pizzatotal"></p>
+                <p id="totalbill"></p>
+                <p id="additionalprice"> The delivery cost will be kes 200</p>
+                <p id="finalmessage"></p>
+            </div>
+            <button class="btn btn-dark addPizza">Add Pizza</button>
+            <button class="btn btn-dark" id="checkout">Checkout</button>
+            <button class="btn btn-dark deliver">Home delivery?</button> 
+        </div>
+        <div class="delivery">
+            <form action="">
+                <div class="mb-3">
+                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                    <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
+                    <input type="text" id="location" class="form-control mb-3" placeholder="Area for delivery">
+                    <button class="btn btn-dark" id="final-order">Place Order</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- contacts -->
+<section class="section-contacts" id="contacts">
+    <div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel-slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item-active"
             </div>
         </div>
     </div>
