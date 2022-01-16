@@ -35,15 +35,14 @@
 <!-- end of nav -->
 
 <!-- home -->
-<section class="section-a">
+<section class="section-a" id="home">
     <div class="container">
         <div>
             <h1>Pizza so tasty</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab accusantium neque, ea tempore possimus quod enim et aut doloribus, 
                 dignissimos nihil. Dolore repellendus sapiente reprehenderit officiis quaerat quasi corporis a!</p>
-                <a href="#" class="btn">Explore more</a> 
         </div>
-        <img src="Images/bg_1.jpg" alt=""/>
+        <!-- <img src="Images/bg_1.jpg" alt=""/> -->
     </div>
 </section>
 <!-- about -->
@@ -62,27 +61,31 @@
 <section class="section-c" id="menu">
     <div class="row" id="porfolio">
         <div class="col-md-3" id="type1">
-            <img src="Images/extravegy.jpg" alt="type1">
+            <img src="Images/pizza-1.jpg" alt="type1">
             <p id="overlay1" class="text">Just Vegan</p>
         </div>
         <div class="col-md-3" id="type2">
-            <img src="Images/olives.jpg" alt="type2">
+            <img src="Images/pizza-2.jpg" alt="type2">
             <p id="overlay2" class="text">Classic beef/p>
         </div>
         <div class="col-md-3" id="type3">
-            <img src="/Images/piz.jpg" alt="type3">
+            <img src="/Images/pizza-3.jpg" alt="type3">
             <p id="overlay3" class="text">Sweetcorn and Ham</p>
         </div>
     </div>
 
     <div class="row" id="porfolio">
         <div class="col-md-3" id="type4">
-            <img src="Images/smoky.jpg" alt="type4">
+            <img src="Images/pizza-4.jpg" alt="type4">
             <p id="overlay4" class="text">Smoky cheese</p>
         </div>
-        <div class="col-md-3" id="type2">
-            <img src="Images/vegy.jpg" alt="type5">
+        <div class="col-md-3" id="type5">
+            <img src="Images/pizza-5.jpg" alt="type5">
             <p id="overlay5" class="text">Hawaiian Pizza</p>
+        </div>
+        <div class="col-md-3" id="type6">
+            <img src="/Images/pizza-6.jpg" alt="type6">
+            <p id="overlay6" class="text">House Special</p>
         </div>
     </div> 
 </section>
@@ -102,6 +105,7 @@
                         <option value="Sweetcorn and Ham">Sweetcorn and Ham</option>
                         <option value="Smoky Cheese">Smoky Cheese</option>
                         <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+                        <option value="House Special">House Special</option>
                     </select>
                     <label for="size">Select size</label>
                     <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
@@ -188,9 +192,25 @@
 <!-- contacts -->
 <section class="section-contacts" id="contacts">
     <div class="container-fluid">
-        <div id="carouselExampleControls" class="carousel-slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item-active"
+        <h2>Contact Us</h2>
+    </div>
+    <div class="row" id="contactinfo">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-3 text-justify">
+            <h2>Location</h2>
+            <p>Pizzerria</p>
+            <p>Zimmerman, Nairobi</p>
+        </div>
+        <div class="col-md-3 text-justify">
+            <h2>Have a question?</h2>
+            <p>silvianjoki98@gmail.com</p>
+            <p>Phone: +254706143339</p>
+        </div>
+        <div class="col-md-4">
+            <div class="mapouter">
+                <iframe width="360" height="180" id="gmap_canvas" src="https://maps.google.com/mamps?q=Zimmerman" marginheight="0" marginwidth="0" frameborder="0"></iframe>
             </div>
         </div>
     </div>

@@ -1,0 +1,65 @@
+/* navbar */
+.navbar {
+    font-size: 1.2 rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.2rem;
+}
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.navbar .logo {
+    font-size: 4rem;
+    font-family: The Nautigal, cursive;
+    
+}
+
+.navbar ul{
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* sectin-a HOME */
+.section-a{
+    margin: 2rem;
+    background-image: url(Images/bkg1.jpg);
+}
+
+.section-a .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 300px;
+    text-align: center;
+}
+
+
+/*menu options portfolio */
+.section-c{
+    background-image: url(/Images/bg_4.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    height: 400px;
+    max-width: max-content;
+    color: white;
+    font-family: 'Dongle',sans-serif;
+    
+}
+
+.section-c .col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0.5rem;
+}
