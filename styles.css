@@ -4,6 +4,9 @@
     padding-top: 0.3rem;
     padding-bottom: 0.2rem;
 }
+.navbar a {
+    color: white;
+}
 .navbar .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -21,6 +24,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 0.5em;
+    padding-right: 0.5rem;
+}
+.navbar .nav-item-active{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
 }
 
 /* sectin-a HOME */
@@ -43,7 +52,7 @@
 
 /*menu options portfolio */
 .section-c{
-    background-image: url(/Images/bg_4.jpg);
+    background-image: url(/Images/bkg.jpg);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -51,15 +60,28 @@
     margin-right: 15%;
     margin-left: 15%;
     text-align: center;
-    height: 400px;
-    max-width: max-content;
+    /* height: 400px;
+    max-width: 100%; */
     color: white;
     font-family: 'Dongle',sans-serif;
+    font-size: 2rem;
     
 }
 
 .section-c .col-md-3 img{
-    max-width: 100%;
-    max-height: 100%;
-    padding: 0.5rem;
+    max-width: 125%;
+    max-height: 125%;
+    padding: 1rem;
+    margin-left: 4rem;
+    padding-left: 2rem;
+}
+
+.section-c .text{
+    text-align: center;
+    width: 15rem;
+    padding-top: 0%;
+    padding-left: 2rem;
+    /* margin: -5rem 3rem; */
+    position: relative;
+
 }
