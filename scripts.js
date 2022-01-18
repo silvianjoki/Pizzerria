@@ -174,7 +174,7 @@ let phone = $('input #phone').val();
 let location = $('input#location').val();
 
 if ($('input#name').val() && $('input#phone').val() && $('input#location').val()!=""){
-    $('#finalmessage').append(person+'we have reeived your order and will deliver it at' + location+'the total cost is kes'deliveryAmount);
+    $('#finalmessage').append(person+'we have reeived your order and will deliver it at' + location);
     $('#totalbill').hide();
     $('#finalmessage').slideDown(1000);
 }
@@ -184,6 +184,5 @@ else{
     $('button#final-order').show();
 }
 preventDefault();
-});
-});
+
 
