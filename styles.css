@@ -101,15 +101,16 @@
     padding-bottom: 3%;
 }
 
-.section-d .deliver-overlay{
+.section-d {
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode:overlay ;
     margin-right: 2%;
     margin-left: 2%;
     padding-left: 15%;
     padding-right:15%;
-    height: 500px;
+    height: 1000px;
     text-align: center;
+    align-items: center;
     
 }
 
@@ -142,11 +143,14 @@
 }
 
 .section-d #selection{
+    display: none;
     align-items: center;
     text-align: center;
     font-family: 'Dongle',sans-serif;
 }
-
+.section-d p{
+    text-align: center;
+}
 .section-contacts{
     align-items: center;
     padding-top: 2%;
