@@ -3,6 +3,7 @@
     font-size: 1.2 rem;
     padding-top: 0.3rem;
     padding-bottom: 0.2rem;
+    text-decoration: none;
 }
 .navbar a {
     color: white;
@@ -19,7 +20,7 @@
     
 }
 
-.navbar ul{
+.navbar .nav-link{
     justify-self: flex-end;
     display: flex;
     align-items: center;
@@ -36,6 +37,7 @@
 .section-a{
     margin: 2rem;
     background-image: url(Images/bkg1.jpg);
+    
 }
 
 .section-a .container{
@@ -51,37 +53,12 @@
 
 
 /*menu options portfolio */
-.section-c{
-    background-image: url(/Images/bkg.jpg);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 15%;
-    margin-left: 15%;
-    text-align: center;
-    /* height: 400px;
-    max-width: 100%; */
-    color: white;
-    font-family: 'Dongle',sans-serif;
-    font-size: 2rem;
-    
+.col-md-4{
+    border-radius: 10%;
+    padding: 10px;
 }
-
-.section-c .col-md-3 img{
-    max-width: 125%;
-    max-height: 125%;
-    padding: 1rem;
-    margin-left: 4rem;
-    padding-left: 2rem;
-}
-
-.section-c .text{
+.card-title{
     text-align: center;
-    width: 15rem;
-    padding-top: 0%;
-    padding-left: 2rem;
-    /* margin: -5rem 3rem; */
-    position: relative;
-
+    color: black;
+    font-weight: 800;
 }
