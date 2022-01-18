@@ -1,10 +1,12 @@
-
+.body .p{
+    font-family: 'Dongle',sans-serif;
+}
 /* navbar */
 .navbar {
-    /* font-size: 1.2 rem;
+    font-size: 1.2 rem;
     padding-top: 0.3rem;
     padding-bottom: 0.2rem;
-    text-decoration: none; */
+    text-decoration: none;
 }
 .navbar a {
     color: white;
